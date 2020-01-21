@@ -1,0 +1,6 @@
+C:\Users\guthrie5\Documents\GitHub\IT-242\Book 1\Chapter2\basicCsharp\basicCsharp\bin\Debug\basicCsharp.exe.config
+C:\Users\guthrie5\Documents\GitHub\IT-242\Book 1\Chapter2\basicCsharp\basicCsharp\bin\Debug\basicCsharp.exe
+C:\Users\guthrie5\Documents\GitHub\IT-242\Book 1\Chapter2\basicCsharp\basicCsharp\bin\Debug\basicCsharp.pdb
+C:\Users\guthrie5\Documents\GitHub\IT-242\Book 1\Chapter2\basicCsharp\basicCsharp\obj\Debug\basicCsharp.csprojResolveAssemblyReference.cache
+C:\Users\guthrie5\Documents\GitHub\IT-242\Book 1\Chapter2\basicCsharp\basicCsharp\obj\Debug\basicCsharp.exe
+C:\Users\guthrie5\Documents\GitHub\IT-242\Book 1\Chapter2\basicCsharp\basicCsharp\obj\Debug\basicCsharp.pdb
