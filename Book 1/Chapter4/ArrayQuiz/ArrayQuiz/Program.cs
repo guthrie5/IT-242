@@ -1,12 +1,12 @@
 ﻿using System;
 
-namespace ListsCSharp
+namespace ArrayQuiz
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+
         }
     }
 }

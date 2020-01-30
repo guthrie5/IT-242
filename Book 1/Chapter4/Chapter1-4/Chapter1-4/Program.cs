@@ -101,7 +101,7 @@ namespace chapter1_4
             // -tells the computer to print the index its currently on --> Console.WriteLine(k)
             // -tell it how long the list is, here its 999 spots (k<=999), how many times to loop over the array
             // -says to count every single spot (k++) means k=k+1,
-            for (int k = 0; k <= 15; k++)
+            for (int k = 0; k <= 15; k+=2)
             {
                 Console.WriteLine(k);
             }
