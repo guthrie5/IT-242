@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace PlanetSpaceships
 {
@@ -12,13 +13,20 @@ namespace PlanetSpaceships
             planetList.Add("Jupiter");
             planetList.Add("Saturn");
 
-            List<string> newplanetList = new List<string>() { "Neptune", "Uranus" };
+            List<string> planetList2 = new List<string>() { "Uranus", "Neptune" };
 
-            newplanetList.AddRange(planetList);
+            planetList.AddRange(planetList2);
 
-            newplanetList.Add("Pluto");
+            planetList.Insert(1, "Venus");
 
-            newplanetList.GetRange()
+            planetList.Insert(2, "Earth");
+
+            planetList.Add("Pluto");
+
+            List<string> rockyplanets = planetList.GetRange(0, 4);
+            rockyplanets.ForEach(planet => Console.WriteLine(planet));
+
+
         }
     }
 }
