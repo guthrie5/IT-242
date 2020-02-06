@@ -26,7 +26,33 @@ namespace PlanetSpaceships
             List<string> rockyplanets = planetList.GetRange(0, 4);
             rockyplanets.ForEach(planet => Console.WriteLine(planet));
 
+            Random random = new Random();
+            List<int> numbers = new List<int> {
+            random.Next(6),
+            random.Next(6),
+            random.Next(6),
+            random.Next(6),
+            random.Next(6),
+            random.Next(6),
+            };
 
+            foreach (int x in numbers)
+            {
+                Console.WriteLine(x + " is the random number generated");
+            }
+
+            for (int i = 0; i < numbers.Count; i++)
+            {
+                if (numbers.Contains(i))
+                {
+                    Console.WriteLine($"{i} is in the number range");
+                }
+
+                else 
+              {
+                    Console.WriteLine($"{i} isn't in the rumber range");
+                }
+            }
         }
     }
 }
